@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'Nemesis Grant';
+    src: url('fonts/NemesisGrant.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Hammersmith One';
+    src: url('fonts/HammersmithOne-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'nunito';
+    src: url('fonts/Nunito-Regular.ttf') format('truetype');
+}
+*{
+    text-decoration: none;justify-content: space-between;
+}
+#header{
+    display: flex;
+    margin-left: 144px;
+    margin-top:73px;
+}
+body, html {
+    background-color: #EEE4BE; 
+    margin: 0px;
+}
+#menu_items li{
+    padding-left: 20px;
+}
+nav a{
+    background-color: #E68369;
+    padding: 15px;
+    color:#FBF6E2;
+    font-family: 'Hammersmith One';
+    font-size: 25px;
+    border-radius: 15px;
+
+}
+nav a:hover{
+    color: #131842;
+}
+#logopart{
+    font-family: "Nemesis Grant";
+    border-bottom: 0px;
+}
+#logopart h1{
+    margin-top: 0px;
+    font-size: 75px;
+    color: #131842;
+    margin-bottom: 0px;
+}
+#logopart p{
+    color: #E68369;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+#menu_items{
+    display: flex;
+    list-style-type: none;
+    margin-right: 144px;
+    margin-top: 35px;
+}
+#img1{
+    margin:0px;
+    border: 0px;
+    padding-left:80px;
+    margin-left: 80px;
+}
+#home_items{
+    display: flex;
+}
+#para{
+    color: #131842;
+    font-family: 'nunito';
+    font-size: 25px;
+    width: 630px;
+    height: 172px;
+    padding-right: 210px;
+    padding-top: 55px;
+    align-self: auto;
+}
+#para #A2{
+    padding-top: 10px;
+}
+
+
+#skills {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 1225px;
+    height: 291px;
+    padding:0px;
+    margin-left: 144px;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 7px rgba(19, 18, 18, 0.3);
+}
+  
+.skills-container {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  
+.skill {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Nemesis Grant";
+}
+h2{
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-top: 10px;
+    font-family: "Nemesis Grant";
+    background-color: #212863;
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding-top:5px;
+    font-size: 40px;
+    padding-left:20px;
+    margin-left: 10px;
+    border-radius: 19px;
+
+}
+  
+.skill-name {
+    width: 150px; /* Adjust as necessary */
+    margin-right: 0px;
+    font-size: 50px;
+    font-family: "Nemesis Grant";
+    padding-left: 60px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+  
+.skill-bar {
+    width: 210px;
+    background-color: #E68369;
+    align-self: start;
+    margin-top: 33px;
+    margin-right: 50px;
+    border-radius: 5px;
+    height:24px ;
+}
+  
+.skill-level {
+    height: 24px;
+    background-color: #131842;
+    border-radius: 5px 0 0 5px;
+}
+.skill-name{
+    font-size: 27px;
+    border: 0px;
+    width: 150px; 
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+#project_items{
+    margin-top: 136px;
+}
+#projects_list{
+    display: flex;
+}
+#projects_list p{
+    font-family: 'nunito';
+    padding-top: 120px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+h3{
+    margin-left: 600px;
+    font-size: 65px;
+    font-family: "Nemesis Grant";
+    text-decoration: underline;
+    text-decoration-color:#E68369 ;
+    text-decoration-thickness:7px ;
+    color: #131842;
+    margin-bottom:0;
+}
+#about h1{
+    margin-left: 650px;
+    font-size: 65px;
+    font-family: "Nemesis Grant";
+    text-decoration: underline;
+    text-decoration-color:#E68369 ;
+    text-decoration-thickness:7px ;
+    color: #131842;
+    margin-bottom:0;
+}
+#proj_box{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#projects_list_2 {
+    margin-top: 0px;
+}
+#box{
+    background-color:#E68369;
+    width: 299px;
+    height: 228px;
+    border-radius: 20px;
+    margin-top: 0;
+}
+#projects_list_1{
+    margin-left: 218px;
+}
+
+#projects_list_3{
+    margin-right: 243px;
+}
+#projects_list_2 p{
+    padding-left: 30px;
+}
+#projects_list_3 p{
+    padding-left: 45px;
+}
+#projects_list img{
+    margin-left: 70px;
+    top:120px;
+    position: relative;
+}
+
+#box_1{
+    background-color: #E68369;
+    margin-left:218px;margin-right: 225px;margin-bottom: 0;
+    font-size: 33px;
+    color: #131842;
+    font-family: 'nunito';font-weight: bold;
+    border-radius: 25px;
+    padding-left: 35px;
+    margin-top: 37px;
+    padding-top: 20px;padding-bottom: 20px;
+}
+#flex_part{
+    display: flex;
+}
+#bt{
+    padding: 0;margin: 0;border: 0;
+    color: #131842;
+    margin-left: 150px;
+    padding-top: 15px;
+    font-family: "Nemesis Grant";
+}
+#box_2{
+    background-color: #E68369;margin-left:218px;
+    border-radius: 25px;margin-top: 30px;
+    font-size: 33px;
+    width: 500px;height: 370px;
+}
+#box_3{
+    background-color: #E68369;
+    margin-right:225px;margin-top: 30px;
+    border-radius: 25px;
+    font-size: 33px;
+    width: 500px;height: 230px;
+}
+#box_4{
+    background-color: #E68369;
+    margin-right:225px;margin-top: 30px;
+    border-radius: 25px;
+    font-size: 33px;
+    width: 500px;height: 110px;
+}
+#flex_part li{
+    font-family: "nunito";
+    margin-left: 50px;
+}
+#box_4 ul{
+    margin: 0;margin-top:5px;
+}
+
+h5{
+    margin-left: 630px;
+    font-size: 65px;
+    font-family: "Nemesis Grant";
+    text-decoration: underline;
+    text-decoration-color:#E68369 ;
+    text-decoration-thickness:7px ;
+    color: #131842;
+    margin-bottom:0;
+}
+#submit_box{
+    background-color: #E68369;
+    margin-left: 218px;margin-right: 225px;
+    margin-top: 40px;border-radius: 25px;
+    width: 1005px;height: 288px;
+}
+#flex_part_2{
+    display: flex;
+}
+label{
+    font-family: "Nemesis Grant";
+    font-size: 35px;color:white;
+}
+input{
+    position: relative;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 1px solid #ffffff;
+    width: 294px;height: 50px;
+    margin-left: 25px;
+    left:80px;bottom: 50px;
+
+}
+#part_1{
+    margin-top: 65px;
+    margin-left: 40px;
+}
+#namee{
+    padding: 0;margin: 0;border: 0;
+}
+#Email{
+    margin-top: 40px;
+    padding: 0;margin: 0;border: 0;
+}
+#part_2 label{
+    position: relative;
+    left:50px;top: 45px;
+}
+textarea{
+    position: relative;
+    padding: 0;margin: 0;border: 0;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 1px solid #ffffff;
+    width: 392px;height: 119px;
+    left: 50px;top: 45px;
+}
+button{
+    background-color: #131842;
+    border-radius: 0 25px 25px 0;
+    color:white;
+    width: 78px;height: 288px;
+    font-size: 35px;font-family: "Nemesis Grant";
+   
+}
+#nav_bar{
+    position: relative;
+    left:220px;width: 0px;
+}
+#menu_items_2{
+    margin-left: 218px;margin-right: 750px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 178px;
+
+}
+#menu_items_2 li{
+    padding-right: 50px;
+}
+#footer{
+    margin-left: 510px;
+    margin-top: 100px;
+}
+#footer a{
+    padding-right: 50px;
+    padding-left: 55px;
+}
+
